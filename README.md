@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on a program to help people who are def/hard of hearing.<br>🌱 I’m currently learning C lang as well as ASM<br>💬 Ask me about anything!<br>⚡ Motivated student dev!
+🔭 I’m currently working on two projects, a program to help people who are def/hard of hearing and a repo to help people jump into different languages with ease.<br>🌱 I’m currently learning C lang as well as ASM<br>💬 Ask me about anything!<br>⚡ Motivated student dev!
 
 
 ## 🌐 Socials:
