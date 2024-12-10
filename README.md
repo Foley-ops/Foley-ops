@@ -1,7 +1,7 @@
 # 💫 About Me:
 🔭 I’m currently working on two projects, a program to help people who are deaf/hard of hearing and a repo to help people jump into different languages with ease.<br>🌱 I’m currently learning C lang as well as ASM<br>💬 Ask me about anything!<br>⚡ Motivated student dev!
 <br>
-<a href="https://www.buymeacoffee.com/djropes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+# <a href="https://www.buymeacoffee.com/djropes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 
 ## 🌐 Socials:
