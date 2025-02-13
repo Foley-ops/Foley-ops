@@ -19,6 +19,17 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
 - **Cloud & Containers:** Docker, Kubernetes, AWS, Azure  
 - **Embedded & Systems:** Linux (Arch, NixOS, Ubuntu), NVIDIA Jetson, Raspberry Pi, Arduino  
 
+## 📊 GitHub Stats  
+![](https://github-readme-stats.vercel.app/api?username=NicholasMFoley&theme=dark&hide_border=false&include_all_commits=true&count_private=true)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=NicholasMFoley&theme=dark&hide_border=false)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=NicholasMFoley&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  
+
+## ✍️ Dev Quote  
+![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)  
+
+## 🔝 Top Contributed Repo  
+![](https://github-contributor-stats.vercel.app/api?username=NicholasMFoley&limit=5&theme=dark&combine_all_yearly_contributions=true)  
+
 ## 📫 Let's Connect  
 📍 **GitHub:** [github.com/NicholasMFoley](https://github.com/NicholasMFoley)  
 🔗 **LinkedIn:** [linkedin.com/in/nicholasmfoley](https://www.linkedin.com/in/nicholasmfoley)  
