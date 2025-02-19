@@ -33,6 +33,8 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
 - **Cloud & Containers:** Docker, Kubernetes, AWS, Azure  
 - **Embedded & Systems:** Linux (Arch, NixOS, Ubuntu), NVIDIA Jetson, Raspberry Pi, Arduino
 
+---
+
 <details>
   <summary><span style="font-size: 1.3em; font-weight: bold;">📚 Currently Learning</span></summary>
 
@@ -61,8 +63,6 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
 </details>
 
 
-
----
 
 <details>
   <summary><span style="font-size: 1.3em; font-weight: bold;">🎓 Education</span></summary>
