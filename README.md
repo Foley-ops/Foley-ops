@@ -6,7 +6,6 @@ I’m a **final-year Computer Science student at UTSA** (4.0 GPA) with a **focus
 actively pursuing **graduate studies in machine learning and distributed computing**.  
 My work bridges **machine learning, DevOps, and embedded systems**, leveraging **high-performance computing and cloud automation** to optimize AI workflows.
 
----
 
 ## 🔬 Research & Projects  
 🚀 **Distributed ML Research** – Optimizing AI model inference on Jetson & Pi clusters.  
