@@ -24,7 +24,6 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
 
 </details>
 
----
 
 ## 🛠️ Tech Stack  
 - **Languages:** Python, C, Java, SQL, Bash  
