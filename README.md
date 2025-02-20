@@ -2,7 +2,7 @@
 💻 **Computer Science Student | ML Researcher | DevOps & Embedded Systems Enthusiast**  
 🎖 **Marine Corps Veteran** | 📍 **Texas**  
 
-I’m a **final-year Computer Science student at UTSA** (4.0 GPA) with a **focus on AI, distributed systems, and edge computing**,  
+I’m a **final-year Computer Science student at UTSA** with a **focus on AI, distributed systems, and edge computing**,  
 actively pursuing **graduate studies in machine learning and distributed computing**.  
 My work bridges **machine learning, DevOps, and embedded systems**, leveraging **high-performance computing and cloud automation** to optimize AI workflows.
 
