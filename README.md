@@ -1,50 +1,42 @@
 # 👋 Hi, I'm Nicholas Foley  
-💻 **Computer Science Student | ML Researcher | DevOps & Embedded Systems Enthusiast**  
-🎖 **Marine Corps Veteran** | 📍 **Texas**  
+**Computer Science Graduate | Deep Learning Researcher**  
+**Marine Corps Veteran** | **Texas**  
 
-I’m a **final-year Computer Science student at UTSA** with a **focus on AI, distributed systems, and edge computing**,  
-actively pursuing **graduate studies in machine learning and distributed computing**.  
-My work bridges **machine learning, DevOps, and embedded systems**, leveraging **high-performance computing and cloud automation** to optimize AI workflows.
+I recently graduated with a B.S. in Computer Science from the University of Texas at San Antonio (May 2025) and will begin my M.S. in Computer Science at UTSA in August 2025, with plans to pursue a Ph.D. after publishing research papers. My focus is on deep learning, distributed systems, and edge computing. I conduct research in the Vision and AI Lab (VAIL) under Dr. Amanda Fernandez, where I am researching a new deep learning architecture, and in the CloudSys Lab under Dr. Palden Lama, where I research edge AI applications. Recent work includes a submitted paper to IEEE EdgeCom 2025: "Where to Split? A Pareto-Front Analysis of DNN Partitioning for Edge Inference."
 
-
-## 🔬 Research & Projects  
-🚀 **Distributed ML Research** – Optimizing AI model inference on Jetson & Pi clusters.  
-🩻 **Fracture Detection CNN** – Trained a TensorFlow model to analyze X-ray images.  
-📊 **MLflow Experimentation Server** – Running JupyterLab + MLflow on a dedicated ML rig (RTX 4080).  
-☁️ **Self-Hosted DevOps Stack** – Managing cloud infrastructure & databases with Docker & Proxmox.  
+## Research & Projects  
+- **Distributed ML Research**: Optimizing AI model inference on Jetson and Pi clusters.  
+- **Fracture Detection CNN**: Trained a model to analyze X-ray images.  
+- **ML Experimentation Server**: Running JupyterLab on a dedicated ML rig (RTX 4080).  
+- **Self-Hosted DevOps Stack**: Managing cloud infrastructure and databases with Docker.  
 
 <details>
-  <summary><span style="font-size: 1.3em; font-weight: bold;">📌 Current Projects</span></summary>
+  <summary>**Current Projects**</summary>
 
-  - 🚀 **[DeepLabv3-VOS](https://github.com/Foley-ops/DeepLabv3-VOS)** – Researching video object segmentation for **Cloudsys Lab at UTSA**.
-  - 🖥️ **[Deeplabv3-Pi-Test](https://github.com/Foley-ops/Deeplabv3-Pi-Test)** – Optimizing **DeepLabV3 for Raspberry Pis**, as the full VOS variant was too heavy.
-  - 🚗 **[YOLOv8-Vehicle-Analysis](https://github.com/Foley-ops/YOLOv8-Vehicle-Analysis)** – **Deep Learning research project** analyzing vehicle detection and tracking.
-  - 🛠️ **[raspberrypi-lab-setup](https://github.com/Foley-ops/raspberrypi-lab-setup)** – **Ansible playbooks** to automate lab setup, installations, and configurations.
+  - **[DeepLabv3-VOS](https://github.com/Foley-ops/DeepLabv3-VOS)**: Researching video object segmentation for CloudSys Lab at UTSA.  
+  - **[Deeplabv3-Pi-Test](https://github.com/Foley-ops/Deeplabv3-Pi-Test)**: Optimizing DeepLabV3 for Raspberry Pis.  
+  - **[YOLOv8-Vehicle-Analysis](https://github.com/Foley-ops/YOLOv8-Vehicle-Analysis)**: Deep learning project analyzing vehicle detection and tracking.  
+  - **[raspberrypi-lab-setup](https://github.com/Foley-ops/raspberrypi-lab-setup)**: Ansible playbooks to automate lab setup, installations, and configurations.  
 
 </details>
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
     <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
         Languages:
     </span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" />
-    <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" />
     <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" />
     <img src="https://img.shields.io/badge/SQL-FF6C37?style=flat&logo=apache&logoColor=white" />
 </div>
 
-<div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
     <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
         Machine Learning Frameworks:
     </span>
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
-    <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat&logo=yolo&logoColor=black" />
-    <img src="https://img.shields.io/badge/Roboflow-FFBB00?style=flat&logo=roboflow&logoColor=purple" />
+    <img src="https://img.shields.io/badge/WandB-FFBE00?style=flat&logo=wandb&logoColor=black" />
 </div>
 
 <div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
@@ -61,11 +53,8 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
         DevOps & Containers:
     </span>
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
     <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" />
-    <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white" />
     <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white" />
-    <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" />
 </div>
 
 <div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
@@ -73,13 +62,8 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
         Operating Systems & Tools:
     </span>
     <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
-    <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
     <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" />
-    <img src="https://img.shields.io/badge/NixOS-5277C3?style=flat&logo=nixos&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenBSD-F2CA30?style=flat&logo=openbsd&logoColor=black" />
-    <img src="https://img.shields.io/badge/Fedora-294172?style=flat&logo=fedora&logoColor=white" />
-    <img src="https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white" />
+    <img src="https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white" />
     <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" />
 </div>
 
@@ -90,7 +74,6 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
     <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white" />
     <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white" />
     <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" />
-    <img src="https://img.shields.io/badge/ExecuTorch-FF6F00?style=flat&logo=pytorch&logoColor=white" />
 </div>
 
 <div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
@@ -98,9 +81,6 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
         Web Development:
     </span>
     <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
-    <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
-    <img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat&logo=jekyll&logoColor=white" />
-    <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
 </div>
 
 <div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
@@ -110,72 +90,47 @@ My work bridges **machine learning, DevOps, and embedded systems**, leveraging *
     <img src="https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white" />
 </div>
 
+<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
+    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
+        Other:
+    </span>
+    <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white" />
+</div>
+
 ---
 
 <details>
-  <summary><span style="font-size: 1.3em; font-weight: bold;">📚 Currently Learning</span></summary>
+  <summary>**Education**</summary>
 
-  <details>
-    <summary>🎓 Coursera: Machine Learning Specialization</summary>
+  **University of Texas at San Antonio** – **B.S. in Computer Science**, May 2025  
+  **University of Texas at San Antonio** – **M.S. in Computer Science**, starting August 2025  
 
-    - ✅ Advanced Learning Algorithms (Completed)  
-    - ✅ Supervised Machine Learning: Regression and Classification (Completed)  
-    - 🚧 Unsupervised Learning, Recommenders, Reinforcement Learning (In Progress)  
+  **Upcoming Courses (Fall 2025):**  
+  - Machine Learning (graduate level)  
+  - Analysis of Algorithms (graduate level)  
+  - Independent Study for research in VAIL  
 
-  </details>
-
-  <details>
-    <summary>🛠️ Boot.dev Backend Developer Courses</summary>
-
-    - ✅ Learn to Code in Python (Completed)  
-    - ✅ Learn Linux (Completed)  
-    - ✅ Learn Git (Completed)  
-    - ✅ Build a Bookbot (Completed)  
-    - ✅ Learn Object-Oriented Programming (Completed)  
-    - 🚧 Build Asteroids (In Progress)  
-    - 🚧 Learn Functional Programming (In Progress)  
-
-  </details>
-
-</details>
-
-
-
-<details>
-  <summary><span style="font-size: 1.3em; font-weight: bold;">🎓 Education</span></summary>
-
-  🎓 **University of Texas at San Antonio** – **B.S. in Computer Science**, **December 2024**  
-  📚 **Current Courses:**
+  **Completed Courses (Relevant):**  
   - Deep Learning  
   - Distributed Systems  
-  - CURE - CS Course-Based UG Research
-  - Undergraduate Reseach at Cloudsys Lab
-
-  📌 **Completed Courses:**
   - Artificial Intelligence  
-  - Machine Learning
-  - Data Mining
-  - Data Science 
-  - Embedded Systems
-  
+  - Machine Learning  
+  - Data Mining  
+  - Data Science  
+  - Embedded Systems  
 
 </details>
 
 ---
 
-## 📊 GitHub Stats  
-![](https://github-readme-stats.vercel.app/api?username=Foley-ops&theme=dark&hide_border=false&include_all_commits=true&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Foley-ops&theme=dark&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Foley-ops&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  
+## GitHub Stats  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Foley-ops&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
-## ✍️ Dev Quote  
-![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)  
+## Dev Quote  
+![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)
 
-## 🔝 Top Contributed Repo  
-![](https://github-contributor-stats.vercel.app/api?username=Foley-ops&limit=5&theme=dark&combine_all_yearly_contributions=true)  
-
-## 📫 Let's Connect  
-📍 **GitHub:** [github.com/Foley-ops](https://github.com/Foley-ops)  
-🔗 **LinkedIn:** [linkedin.com/in/nicholasmfoley](https://www.linkedin.com/in/nicholasmfoley)  
+## Let's Connect  
+**GitHub:** [github.com/Foley-ops](https://github.com/Foley-ops)  
+**LinkedIn:** [linkedin.com/in/nicholasmfoley](https://www.linkedin.com/in/nicholasmfoley)  
