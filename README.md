@@ -2,7 +2,7 @@
 **Computer Science Graduate | Deep Learning Researcher**  
 **Marine Corps Veteran** | **Texas**  
 
-I recently graduated with a B.S. in Computer Science from the University of Texas at San Antonio (May 2025) and will begin my M.S. in Computer Science at UTSA in August 2025, with plans to pursue a Ph.D. after publishing research papers. My focus is on deep learning, distributed systems, and edge computing. I conduct research in the Vision and AI Lab (VAIL) under Dr. Amanda Fernandez, where I am researching a new deep learning architecture, and in the CloudSys Lab under Dr. Palden Lama, where I research edge AI applications. Recent work includes a submitted paper to IEEE EdgeCom 2025: "Where to Split? A Pareto-Front Analysis of DNN Partitioning for Edge Inference."
+I recently graduated with a B.S. in Computer Science from the University of Texas at San Antonio (May 2025) and will begin my M.S. in Computer Science at UTSA in August 2025, with plans to pursue a Ph.D. starting in Fall 2026. My focus is on deep learning, distributed systems, and edge computing. I conduct research in the Vision and AI Lab (VAIL) under Dr. Amanda Fernandez, where I am researching a new deep learning architecture, and in the CloudSys Lab under Dr. Palden Lama, where I research edge AI applications. Recent work includes a submitted paper to IEEE EdgeCom 2025: "Where to Split? A Pareto-Front Analysis of DNN Partitioning for Edge Inference."
 
 ## Research & Projects  
 - **Distributed ML Research**: Optimizing AI model inference on Jetson and Pi clusters.  
