@@ -1,136 +1,41 @@
-# 👋 Hi, I'm Nicholas Foley  
-**Computer Science Graduate | Deep Learning Researcher**  
-**Marine Corps Veteran** | **Texas**  
+# Nicholas Foley
 
-I recently graduated with a B.S. in Computer Science from the University of Texas at San Antonio (May 2025) and will begin my M.S. in Computer Science at UTSA in August 2025, with plans to pursue a Ph.D. starting in Fall 2026. My focus is on deep learning, distributed systems, and edge computing. I conduct research in the Vision and AI Lab (VAIL) under Dr. Amanda Fernandez, where I am researching a new deep learning architecture, and in the CloudSys Lab under Dr. Palden Lama, where I research edge AI applications. Recent work includes a submitted paper to IEEE EdgeCom 2025: "Where to Split? A Pareto-Front Analysis of DNN Partitioning for Edge Inference."
+PhD student in Computer Science at the University of Texas at San Antonio · Marine Corps veteran · San Antonio, TX
 
-## Research & Projects  
-- **Distributed ML Research**: Optimizing AI model inference on Jetson and Pi clusters.  
-- **Fracture Detection CNN**: Trained a model to analyze X-ray images.  
-- **ML Experimentation Server**: Running JupyterLab on a dedicated ML rig (RTX 4080).  
-- **Self-Hosted DevOps Stack**: Managing cloud infrastructure and databases with Docker.  
+I'm in the Vision and AI Lab (VAIL) at UTSA, advised by Dr. Amanda Fernandez. My research is in geometric deep learning, mostly neural networks built on quaternion and other hypercomplex (Clifford) algebras. Current work covers attention over spherical lattices, spherical graph neural networks, and visual place recognition, with an eye toward layers that run efficiently on edge hardware.
 
-<details>
-  <summary>**Current Projects**</summary>
+Before the PhD I worked in the CloudSys Lab with Dr. Palden Lama on distributed inference: splitting CNNs across Raspberry Pi and Jetson clusters and measuring where a split actually pays off. I also take on applied ML contract work through Foresyth Foley LLC.
 
-  - **[DeepLabv3-VOS](https://github.com/Foley-ops/DeepLabv3-VOS)**: Researching video object segmentation for CloudSys Lab at UTSA.  
-  - **[Deeplabv3-Pi-Test](https://github.com/Foley-ops/Deeplabv3-Pi-Test)**: Optimizing DeepLabV3 for Raspberry Pis.  
-  - **[YOLOv8-Vehicle-Analysis](https://github.com/Foley-ops/YOLOv8-Vehicle-Analysis)**: Deep learning project analyzing vehicle detection and tracking.  
-  - **[raspberrypi-lab-setup](https://github.com/Foley-ops/raspberrypi-lab-setup)**: Ansible playbooks to automate lab setup, installations, and configurations.  
+## Publications
 
-</details>
+- A. Masud, **N. Foley**, P. D. Rajarajan, P. Lama. [Where to Split? A Pareto-Front Analysis of DNN Partitioning for Edge Inference](https://arxiv.org/abs/2601.08025). *IEEE EdgeCom 2025*. [[code]](https://github.com/cloudsyslab/ParetoPipe)
 
-## Tech Stack  
-<div style="display: flex; align-items: center; flex-wrap: wrap;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Languages:
-    </span>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" />
-    <img src="https://img.shields.io/badge/SQL-FF6C37?style=flat&logo=apache&logoColor=white" />
-</div>
+Work on quaternion attention for vision is currently under review.
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Machine Learning Frameworks:
-    </span>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/WandB-FFBE00?style=flat&logo=wandb&logoColor=black" />
-</div>
+## Projects
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Databases:
-    </span>
-    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
-</div>
+- **[firmament](https://github.com/Foley-ops/firmament)** (Python): A hands-off world simulator with real physics, exact conservation, and bit-identical replay. Built in phases, each gated by its own acceptance tests.
+- **[mtg-deck-builder](https://github.com/Foley-ops/mtg-deck-builder)** (Python, PyTorch Geometric): Builds Magic: The Gathering Commander decks from a graph neural network trained on real play data, then applies bracket rules, budget limits, and your own collection. CLI and browser UI.
+- **[cutoffarr](https://github.com/Foley-ops/cutoffarr)** (Go): A small service that unmonitors Radarr/Sonarr items once they meet their quality profile, so indexers stop getting queried for upgrades that don't exist. Dry-run by default and never deletes anything.
+- **[distributed-inference](https://github.com/Foley-ops/distributed-inference)** (Python, PyTorch): Pipelined DNN inference across a Raspberry Pi cluster over PyTorch RPC. Profiles each layer to pick split points and gets about 6.4x the throughput of a sequential baseline.
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        DevOps & Containers:
-    </span>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" />
-    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white" />
-</div>
+Earlier edge and cluster work: [distributed-dnn-inference-pi](https://github.com/Foley-ops/distributed-dnn-inference-pi), [DeepLabv3-VOS](https://github.com/Foley-ops/DeepLabv3-VOS), [YOLOv8-Vehicle-Analysis](https://github.com/Foley-ops/YOLOv8-Vehicle-Analysis), [raspberrypi-lab-setup](https://github.com/Foley-ops/raspberrypi-lab-setup), [Pi-Cluster-SSH-Manager](https://github.com/Foley-ops/Pi-Cluster-SSH-Manager).
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Operating Systems & Tools:
-    </span>
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" />
-    <img src="https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white" />
-    <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" />
-</div>
+## Tools
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Embedded & Edge Computing:
-    </span>
-    <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white" />
-    <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white" />
-    <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" />
-</div>
+**Languages:** Python, Go, Rust, Bash, SQL, LaTeX  
+**ML:** PyTorch, PyTorch Geometric, Weights & Biases, Ollama  
+**Infrastructure:** Linux, Docker, Ansible, GitHub Actions, Grafana, Unraid  
+**Databases:** PostgreSQL, MySQL, SQLite  
+**Hardware:** NVIDIA Jetson, Raspberry Pi, Arduino  
+**Other:** Flask, Qiskit, Neovim
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Web Development:
-    </span>
-    <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
-</div>
+## Education
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Reporting & Documentation:
-    </span>
-    <img src="https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white" />
-</div>
+- **Ph.D., Computer Science**, University of Texas at San Antonio (2026 to present)
+- **B.S., Computer Science**, University of Texas at San Antonio (2025)
+- UTSA School of Data Science Undergraduate Research Fellowship, inaugural cohort (2025)
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-    <span style="font-size: 1.5em; font-weight: bold; margin-right: 12px;">
-        Other:
-    </span>
-    <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white" />
-</div>
+## Contact
 
----
-
-<details>
-  <summary>**Education**</summary>
-
-  **University of Texas at San Antonio** – **B.S. in Computer Science**, May 2025  
-  **University of Texas at San Antonio** – **M.S. in Computer Science**, starting August 2025  
-
-  **Upcoming Courses (Fall 2025):**  
-  - Machine Learning (graduate level)  
-  - Analysis of Algorithms (graduate level)  
-  - Independent Study for research in VAIL  
-
-  **Completed Courses (Relevant):**  
-  - Deep Learning  
-  - Distributed Systems  
-  - Artificial Intelligence  
-  - Machine Learning  
-  - Data Mining  
-  - Data Science  
-  - Embedded Systems  
-
-</details>
-
----
-
-## GitHub Stats  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Foley-ops&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-## Dev Quote  
-![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)
-
-## Let's Connect  
-**GitHub:** [github.com/Foley-ops](https://github.com/Foley-ops)  
-**LinkedIn:** [linkedin.com/in/nicholasmfoley](https://www.linkedin.com/in/nicholasmfoley)  
+[LinkedIn](https://www.linkedin.com/in/nicholasmfoley)
