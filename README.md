@@ -14,8 +14,10 @@ Work on quaternion attention for vision is currently under review.
 
 ## Projects
 
+- **[knowledge-navigator](https://github.com/Foley-ops/knowledge-navigator)** (TypeScript): A local-first research reference for mathematics, AI, and programming. One canonical page per concept, a knowledge graph compiled from page frontmatter, side-by-side concept comparisons, reading paths built from declared prerequisites, and an assistant that answers only from cited pages using a local model.
 - **[firmament](https://github.com/Foley-ops/firmament)** (Python): A hands-off world simulator with real physics, exact conservation, and bit-identical replay. Built in phases, each gated by its own acceptance tests.
 - **[mtg-deck-builder](https://github.com/Foley-ops/mtg-deck-builder)** (Python, PyTorch Geometric): Builds Magic: The Gathering Commander decks from a graph neural network trained on real play data, then applies bracket rules, budget limits, and your own collection. CLI and browser UI.
+- **[coding-playground-for-kids](https://github.com/Foley-ops/coding-playground-for-kids)** (JavaScript, Python): A self-hosted site that teaches kids Python and JavaScript through 61 guided challenges. Code runs in the browser (Pyodide in a Web Worker), so nothing executes on the server. Challenges check their own goals, translate errors into plain language, and step up the hints when a kid gets stuck.
 - **[cutoffarr](https://github.com/Foley-ops/cutoffarr)** (Go): A small service that unmonitors Radarr/Sonarr items once they meet their quality profile, so indexers stop getting queried for upgrades that don't exist. Dry-run by default and never deletes anything.
 - **[distributed-inference](https://github.com/Foley-ops/distributed-inference)** (Python, PyTorch): Pipelined DNN inference across a Raspberry Pi cluster over PyTorch RPC. Profiles each layer to pick split points and gets about 6.4x the throughput of a sequential baseline.
 
@@ -23,7 +25,7 @@ Earlier edge and cluster work: [distributed-dnn-inference-pi](https://github.com
 
 ## Tools
 
-**Languages:** Python, Go, Rust, Bash, SQL, LaTeX  
+**Languages:** Python, TypeScript, JavaScript, Go, Rust, Bash, SQL, LaTeX  
 **ML:** PyTorch, PyTorch Geometric, Weights & Biases, Ollama  
 **Infrastructure:** Linux, Docker, Ansible, GitHub Actions, Grafana, Unraid  
 **Databases:** PostgreSQL, MySQL, SQLite  
